@@ -1,5 +1,6 @@
 module github.com/marcus0086/go-graaphql
 
+// +heroku goVersion go1.17
 go 1.17
 
 require (
@@ -8,8 +9,8 @@ require (
 )
 
 require (
-	github.com/agnivade/levenshtein v1.1.0 // indirect
+	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/hashicorp/golang-lru v0.5.0 // indirect
-	github.com/mitchellh/mapstructure v0.0.0-20180203102830-a4e142e9c047 // indirect
+	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/mitchellh/mapstructure v1.4.3 // indirect
 )
